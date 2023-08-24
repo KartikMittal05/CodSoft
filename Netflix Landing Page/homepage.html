@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="stylesheet.css" rel="stylesheet"> -->
+
+    <style>
+        body{
+            margin:0px;
+        }
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 160px;
+            /* border: 2px solid pink; */
+            height: 59px;
+            color: red;
+            font-size: x-large;
+
+        }
+
+        .left h1 {
+            margin: 0px 0px;
+            padding: 0px 0px;
+
+        }
+
+        .middle {
+            display: block;
+            margin: 0px auto;
+            width: 1096px;
+            /* border: 2px solid blanchedalmond; */
+            background-color: black;
+        }
+
+        .right {
+            position: absolute;
+            right: 2px;
+            top: 0px;
+            display: inline-flex;
+            /* border: 2px solid orange; */
+            height: 58px;
+            width: 360px;
+        }
+
+        #language {
+            padding: 2px 2px;
+            margin: 12px 30px;
+            border-radius: 3px;
+        }
+
+        #login {
+            margin: 11px 9px;
+            padding: 8px 10px;
+            background-color: red;
+            border-radius: 3px;
+
+        }
+
+        #login a:hover {
+            color: orchid;
+        }
+
+        #login a {
+            color: rgb(238, 235, 235);
+            text-decoration: none;
+        }
+
+
+        .cf {
+            display: inline-block;
+
+        }
+
+        .cf li {
+            color: white;
+            display: inline-block;
+            font-size: 22px;
+
+
+
+        }
+
+        .cf li a {
+
+            text-decoration: none;
+            color: white;
+            padding: 10px 10px;
+
+        }
+
+        .cf li a:hover {
+            text-decoration: underline;
+            color: rgb(255, 0, 0);
+        }
+        #showcase {
+            background: url('background.jpg') no-repeat center/cover;
+            filter: opacity(80%);
+            width: 100%;
+            height: 150vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 1298px;
+            text-align: center;
+            margin: 250px auto;
+            padding: 45px 0rem;
+            color: white;
+            height: 260px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .container #Enter {
+            height: 41px;
+            width: 274px;
+            background-color: rgb(41, 39, 39);
+            color: aliceblue;
+        }
+       
+        .container #started {
+            height: 45px;
+            width: 120px;
+            background-color: red;
+            color: rgb(250, 246, 246);
+        }
+
+        .container h1 {
+            font-weight: 900;
+        }
+
+        .lead {
+            font-size: 20rpm;
+        }
+
+        .foot {
+            background-color: grey;
+
+        }
+
+        footer .footer-cols {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 2rem;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        footer .footer-cols ul {
+            list-style: none;
+        }
+
+        footer .footer-bottom {
+            text-align: center;
+            background-color: #333333;
+            padding: 1rem;
+        }
+        .footer-cols ul a{
+            text-decoration: none;
+            color: rgb(34, 33, 33);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="showcase">
+        <header>
+            <div class="left">
+                <h1>NETFLIX</h1>
+
+            </div>
+            <div class="right">
+                <select name="language" id="language">
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                </select>
+                <button id="login"><a href="login_netflix.html" target="_parent">Sign In</a></button>
+
+            </div>
+
+        </header>
+        <div class="container">
+            <h1>Unlimited movies,TV shows and more </h1>
+            <p>What anywhere. Cancel anytime </p>
+            <p class="lead hide-on-small">
+                Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="text" placeholder="Email Address" id="Enter">
+           <a href="login_netflix.html" target="_parent"><input type="button" value="Get Started>" id="started"></a> 
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="foot">
+        <div class="footer-cols">
+
+            <ul>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="http://ir.netflix.com/">Investor Relations</a>
+                </li>
+
+                <li>
+                    <a href="https://help.netflix.com/en/legal/corpinfo"> Corporate Information</a>
+                </li>
+                <li>
+                    <a href="#">Netflix Originals</a>
+                </li>
+            </ul>
+            <ul>
+
+                <li>
+                    <a href="https://help.netflix.com/">Help Center</a>
+                </li>
+                <li>
+                    <a href="https://jobs.netflix.com/">Jobs</a>
+                </li>
+                <li>
+                    <a href="https://help.netflix.com/en/legal/termsofuse">Terms Of Use</a>
+                </li>
+                <li>
+                    <a href="https://help.netflix.com/en/contactus">Contact Us</a>
+                </li>
+
+            </ul>
+            <ul>
+
+                <li>
+                    <a href="#">Account</a>
+                </li>
+                <li>
+                    <a href="https://www.netflix.com/redeem">Redeem gift cards</a>
+                </li>
+                <li>
+                    <a href="https://help.netflix.com/en/legal/privacy">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Speed Test</a>
+                </li>
+
+            </ul>
+            <ul>
+
+                <li>
+                    <a href="https://media.netflix.com/">Media Center</a>
+                </li>
+                <li>
+                    <a href="https://www.netflix.com/redeem">Buy Gift Cards</a>
+                </li>
+                <li>
+                    <a href="https://help.netflix.com/en/legal/privacy#cookies">Cookie Preferences</a>
+                </li>
+                <li>
+                    <a href="https://help.netflix.com/legal/notices">Legal Notices</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="footer-bottom">
+        copyright
+        &copy;
+        2023 Netflix
+    </div>
+</footer>
+
+</html>

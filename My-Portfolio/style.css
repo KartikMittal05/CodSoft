@@ -1,0 +1,313 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(95, 116, 173);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 256);
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    margin: 60px 84px;
+    height: 1.4px;
+    background-color: #9c97f1;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+
+    font-size: 2rem;
+
+
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons {
+    padding: 50px 0;
+}
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.purple {
+    color: rgb(83, 83, 238);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(30, 30, 216);
+}
+
+.workexperience {
+    color: #6e72e6;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    height: 2px;
+    width: 72vw;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    width: 150px;
+    font-size: 9px;
+    color: gray;
+}
+
+footer {
+    background-color: #0e0e1a;
+
+}
+
+.footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.aboutsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+
+.about-rightsection {
+    font-size: 1.6rem;
+    width: 50%;
+    margin-right: 100px;
+    margin-bottom: 20px;
+
+}
+
+.about-rightsection .me {
+    padding-bottom: 10px;
+}
+
+.about-leftsection img {
+    width: 60%;
+    padding-left: 100px;
+}
+
+.about-me {
+    color: #6e72e6;
+    margin-bottom: 50px;
+}
+
+td {
+    border: none;
+    padding-right: 40px;
+}
+
+#row1 {
+    color: orangered;
+}
+#row3 {
+    color: orangered;
+}
+#row2 {
+    color:bisque;
+}
+#row4 {
+    color:bisque;
+}
+.myskill {
+    color: #6e72e6;
+}
+
+.skillsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+
+.skillsection-left {
+    text-align: left;
+    font-size: larger;
+
+}
+
+.tech-type {
+    text-align: left;
+    font-size: small;
+}
+
+#range {
+
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.skillsection-right {
+    text-align: left;
+    font-size: larger;
+
+}
+
+.prof-type {
+    text-align: left;
+    font-size: small;
+}
+
+.myproject {
+    color: #6e72e6;
+}
+
+.projectsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+
+.projects ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: medium;
+}
+
+.projects ul li img {
+    height: 200px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+.projects ul li button {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+#netflixbtn{
+    margin-left: 78px;
+}
+
+.contact-rightsection img {
+    width: 25px;
+    height: 25px;
+}
+
+.contact-rightsection ul li {
+    font-size: 1rem;
+    list-style: none;
+}
+
+.contactsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+
+.contact-leftsection {
+    font-size: 2rem;
+    color: #6e72e6;
+}
+
+h4 {
+    color: gray;
+}
